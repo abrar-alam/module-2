@@ -12,7 +12,9 @@ The dataset used in this project can be found [here](https://github.com/DataTalk
 
 ***Transform***: The loaded data then is queried from **BigQuery** to compute a **Unique Record ID** and **filename**.  The result is then saved into a **BigQuery** table which is **partitioned by date** to achieve query efficiency.
 
-
+## Design Diagram 
+![](system_diagram.png)
+## How to run
 
 
 
